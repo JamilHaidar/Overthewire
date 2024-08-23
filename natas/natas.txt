@@ -56,3 +56,6 @@ Level 16: EqjHJbo7LFNb8vwhHb9s75hokh5TF0OC
 
 %% brute force but with time %%
 Level 17: 6OG1PbKdVjyBlpxgD4DDbRG6ZLlCGgCJ
+
+%% brute force, cookie edition %%
+Level 18: tnwER7PdfWkxsG4FNWUtoAZ9VyZTJqJr
