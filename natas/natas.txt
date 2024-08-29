@@ -59,3 +59,6 @@ Level 17: 6OG1PbKdVjyBlpxgD4DDbRG6ZLlCGgCJ
 
 %% brute force, cookie edition %%
 Level 18: tnwER7PdfWkxsG4FNWUtoAZ9VyZTJqJr
+
+%% brute force, cookie hex edition %%
+Level 19: p5mCvP7GS2K6Bmt3gqhM2Fc1A5T8MVyw
