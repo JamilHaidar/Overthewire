@@ -68,3 +68,6 @@ Level 20: BPhv63cKE1lkQl04cE5CuFTzXe15NfiH
 
 %% Add a input form as value with name admin and value 1 then press submit, get session id (cookie), use cookie in initial website
 Level 21: d8rwGBl0Xslg3b76uh3fEbSlnOUBlozz
+
+%% Use something that is not as good as a browser (curl -iv -X GET -u natas22:d8rwGBl0Xslg3b76uh3fEbSlnOUBlozz http://natas22.natas.labs.overthewire.org/index.php?revelio)
+Level 22: dIUQcI3uSus1JEOSSWRAEXBG8KbR8tRs
