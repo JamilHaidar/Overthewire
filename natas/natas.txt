@@ -66,3 +66,5 @@ Level 19: p5mCvP7GS2K6Bmt3gqhM2Fc1A5T8MVyw
 %% just add in line break in name and make it read the admin to 1 %%
 Level 20: BPhv63cKE1lkQl04cE5CuFTzXe15NfiH
 
+%% Add a input form as value with name admin and value 1 then press submit, get session id (cookie), use cookie in initial website
+Level 21: d8rwGBl0Xslg3b76uh3fEbSlnOUBlozz
