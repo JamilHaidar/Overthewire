@@ -62,3 +62,7 @@ Level 18: tnwER7PdfWkxsG4FNWUtoAZ9VyZTJqJr
 
 %% brute force, cookie hex edition %%
 Level 19: p5mCvP7GS2K6Bmt3gqhM2Fc1A5T8MVyw
+
+%% just add in line break in name and make it read the admin to 1 %%
+Level 20: BPhv63cKE1lkQl04cE5CuFTzXe15NfiH
+
