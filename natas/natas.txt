@@ -71,3 +71,6 @@ Level 21: d8rwGBl0Xslg3b76uh3fEbSlnOUBlozz
 
 %% Use something that is not as good as a browser (curl -iv -X GET -u natas22:d8rwGBl0Xslg3b76uh3fEbSlnOUBlozz http://natas22.natas.labs.overthewire.org/index.php?revelio)
 Level 22: dIUQcI3uSus1JEOSSWRAEXBG8KbR8tRs
+
+%% use password: 123iloveyou
+Level 23: MeuqmfJ8DDKuTr5pcvzFKSwlxedZYEWd
