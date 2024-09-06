@@ -74,3 +74,12 @@ Level 22: dIUQcI3uSus1JEOSSWRAEXBG8KbR8tRs
 
 %% use password: 123iloveyou
 Level 23: MeuqmfJ8DDKuTr5pcvzFKSwlxedZYEWd
+
+%% use link http://natas24.natas.labs.overthewire.org/index.php?passwd[0]=1 to break strcmp %%
+Level 24: ckELKUWZUfpOv6uxS6M7lXBpBssJZ4Ws
+
+%% use user-agent to inject php code %%
+Level 25: cVXXwxMS3Y26n5UZU89QgpGmWCelaQlE
+
+%% unserialize injection %%
+Level 26: u3RRffXjysjgwFU6b9xa23i6prmUsYne
