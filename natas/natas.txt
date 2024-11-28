@@ -83,3 +83,6 @@ Level 25: cVXXwxMS3Y26n5UZU89QgpGmWCelaQlE
 
 %% unserialize injection %%
 Level 26: u3RRffXjysjgwFU6b9xa23i6prmUsYne
+
+%% bypass trim using letter at end and also mysqli ignores trailing spaces when doing query cz its dumb %%
+Level 27: 1JNwQM1Oi6J6j1k49Xyw7ZN6pXMQInVj
