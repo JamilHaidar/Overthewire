@@ -86,3 +86,7 @@ Level 26: u3RRffXjysjgwFU6b9xa23i6prmUsYne
 
 %% bypass trim using letter at end and also mysqli ignores trailing spaces when doing query cz its dumb %%
 Level 27: 1JNwQM1Oi6J6j1k49Xyw7ZN6pXMQInVj
+
+%% Go see the python notebook. Basically AES ECB 16 byte is bad since repeatable, find normal query block, replace with inject sql query block then encode then search it %%
+Level 28; 31F4j3Qi2PnuhIZQokxXk1L3QT9Cppns
+
