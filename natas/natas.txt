@@ -88,5 +88,11 @@ Level 26: u3RRffXjysjgwFU6b9xa23i6prmUsYne
 Level 27: 1JNwQM1Oi6J6j1k49Xyw7ZN6pXMQInVj
 
 %% Go see the python notebook. Basically AES ECB 16 byte is bad since repeatable, find normal query block, replace with inject sql query block then encode then search it %%
-Level 28; 31F4j3Qi2PnuhIZQokxXk1L3QT9Cppns
+Level 28: 31F4j3Qi2PnuhIZQokxXk1L3QT9Cppns
+
+%% Perl code injection with null byte: http://natas29.natas.labs.overthewire.org/index.pl?file=|cat%20/etc/n*tas_webpass/n*tas30%00 %%
+Level 29: WQhx1BvcmP9irs2MP9tRnLsNaDI76YrH
+
+%% Param can turn input into list, Quote takes list of 2 values as 2nd one being the second argument. Second argument is datatype and apparently datatypes 2->8 will make it not quote the or 1=1 in sql injection %%
+Level 30: m7bfjAHpJmSYgQWWeqRE2qVBuMiRNq0y
 
