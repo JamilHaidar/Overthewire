@@ -1,0 +1,30 @@
+# ssh leviathan0@leviathan.labs.overthewire.org -p 2223
+level -1: leviathan0
+
+# Password is in .backup/bookmarks.html
+level 0: 3QJ3TgzHDq
+
+# execute check and if you look at cat there is the word sex idk why it works
+level 1: NsN1HwFoyN
+
+# if you do ltrace on a file you can access, you can see we have 3 commands:
+# access("test.txt", 4)                                                                                                                            = 0
+# snprintf("/bin/cat test.txt", 511, "/bin/cat %s", "test.txt")                                                                                    = 17
+# system("/bin/cat test.txt"hi 123
+# meaning that it first sees if the file exists then creates a string with /bin/cat and the input argument, then runs system on it
+# solution is create a file with its name being the command injection. For example, "test.txt; bash"
+# the access command works since it exists, the cat will run on a file called test.txt, and then bash will run giving us access to leviathan3
+level 2: f0n8h2iWLP
+
+# using ltrace we can clearly see that it compares the input to snlprintf so just use that as password gg
+level 3: WG1egElCvO
+
+# Run -la to see .trash then run ./.trash/bin to get binary string. convert to ascii. ??. profit
+level 4: 0dyxT7F4QD
+
+# using ltrace/strace we can see it opens a file and reads it then outputs value to stdout so just make symbolic link to file
+# ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log
+level 5: szo7HDB88w
+
+# for i in {0000..9999};do ./leviathan6 $i;done
+level 6: qEs5Io5yM8
