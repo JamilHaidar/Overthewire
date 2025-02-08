@@ -1,0 +1,28 @@
+# Level 1
+KRYPTONISGREAT
+
+
+# Level 2: Use tr:
+cat krypton2 | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+ROTTEN
+
+
+# Level 3: Use tr:
+encrypt A to get the key (M)
+cat /krypton/krypton2/krypton3 | tr 'M-ZA-Lm-za-l' 'A-Za-z'
+CAESARISEASY
+
+
+# Level 4: use frequency analysis
+Use python script to get most common 3 letter words and assume that the most common one is 'the'
+get the frequency of letters: cat found* | sed  's/\(.\)/\1\n/g' | sort | uniq -c | sort
+modify the key by trying to guess recognisable words
+cat krypton4| tr 'JDSNUQCBGZVWMYTXKELAFIORHP' 'THERSAIONCLDUPMFWGYBKVXJQZ' | sed 's/ //g' | sed 's/THE/ THE /g'
+
+# Level 5: Use online tool https://www.boxentriq.com/code-breaking/vigenere-cipher
+CLEARTEXT
+
+
+# Level 6: Same online tool
+keylength
+RANDOM
