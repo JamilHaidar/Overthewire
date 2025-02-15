@@ -26,3 +26,7 @@ CLEARTEXT
 # Level 6: Same online tool
 keylength
 RANDOM
+
+# Level 7: Use AAAAAAAAAAAA plain text to get key
+subtract key from ciphertext
+LFSRISNOTRANDOM
